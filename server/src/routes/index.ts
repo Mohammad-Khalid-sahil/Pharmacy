@@ -1,0 +1,48 @@
+import { Router } from 'express';
+import userRoutes from '../modules/user/user.routes';
+import productRoute from '../modules/product/product.routes';
+import saleRoutes from '../modules/sale/sale.routes';
+import sellerRoutes from '../modules/seller/seller.routes';
+import purchaseRoutes from '../modules/purchase/purchase.routes';
+import expenseRoutes from '../modules/expense/expense.routes';
+import customerRoutes from '../modules/customer/customer.routes';
+import customerDebtorAccountRoutes from '../modules/customerDebtorAccount/customerDebtorAccount.routes';
+import customerPaymentRoutes from '../modules/customerPayment/customerPayment.routes';
+import customerLedgerRoutes from '../modules/customerLedger/customerLedger.routes';
+import sellerPaymentRoutes from '../modules/sellerPayment/sellerPayment.routes';
+import sellerLedgerRoutes from '../modules/sellerLedger/sellerLedger.routes';
+import cashboxTransactionRoutes from '../modules/cashboxTransaction/cashboxTransaction.routes';
+import cashboxPersonAccountRoutes from '../modules/cashboxPersonAccount/cashboxPersonAccount.routes';
+import moneyTransferRoutes from '../modules/moneyTransfer/moneyTransfer.routes';
+import saleReturnRoutes from '../modules/saleReturn/saleReturn.routes';
+import prescriptionRoutes from '../modules/prescription/prescription.routes';
+import employeeRoutes from '../modules/employee/employee.routes';
+import salaryPaymentRoutes from '../modules/salaryPayment/salaryPayment.routes';
+import activityLogRoutes from '../modules/activityLog/activityLog.routes';
+import backupLogRoutes from '../modules/backupLog/backupLog.routes';
+
+const rootRouter = Router();
+
+rootRouter.use('/users', userRoutes);
+rootRouter.use('/products', productRoute);
+rootRouter.use('/sales', saleRoutes);
+rootRouter.use('/sellers', sellerRoutes);
+rootRouter.use('/purchases', purchaseRoutes);
+rootRouter.use('/expenses', expenseRoutes);
+rootRouter.use('/customers', customerRoutes);
+rootRouter.use('/customer-debtor-accounts', customerDebtorAccountRoutes);
+rootRouter.use('/customer-payments', customerPaymentRoutes);
+rootRouter.use('/customer-ledgers', customerLedgerRoutes);
+rootRouter.use('/seller-payments', sellerPaymentRoutes);
+rootRouter.use('/seller-ledgers', sellerLedgerRoutes);
+rootRouter.use('/cashbox-transactions', cashboxTransactionRoutes);
+rootRouter.use('/cashbox-person-accounts', cashboxPersonAccountRoutes);
+rootRouter.use('/money-transfers', moneyTransferRoutes);
+rootRouter.use('/sale-returns', saleReturnRoutes);
+rootRouter.use('/prescriptions', prescriptionRoutes);
+rootRouter.use('/employees', employeeRoutes);
+rootRouter.use('/salary-payments', salaryPaymentRoutes);
+rootRouter.use('/activity-logs', activityLogRoutes);
+rootRouter.use('/backups', backupLogRoutes);
+
+export default rootRouter;

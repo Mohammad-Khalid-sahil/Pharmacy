@@ -1,0 +1,2 @@
+{"_id":"sale_mpy749za_26t1pq","product":{"_id":"products_mpy749z8_l8eqzo","name":"Instruction Medicine","price":30},"quantity":2,"productPrice":30,"transactionId":"transaction_mpy749z9_035j1s","buyerName":"Prescription Customer","date":"2026-06-03","paymentType":"CASH","customer":"customers_mpy749z5_n5r9in","paidAmount":60,"productName":"Instruction Medicine","totalPrice":60,"dueAmount":0,"profit":40,"createdAt":"2026-06-03T15:02:55.366Z","updatedAt":"2026-06-03T15:02:55.366Z"}
+{"$$deleted":true,"_id":"sale_mpy749za_26t1pq"}

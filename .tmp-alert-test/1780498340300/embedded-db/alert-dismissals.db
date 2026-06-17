@@ -1,0 +1,4 @@
+{"_id":"alert_dismissal_mpy6qo10_m0gvba","alertKey":"SYSTEM:alerts_mpy6qo0u_xdzmg6","type":"SYSTEM","title":"Test System Alert","dismissedAt":"2026-06-03T14:52:20.388Z","createdAt":"2026-06-03T14:52:20.388Z","updatedAt":"2026-06-03T14:52:20.388Z"}
+{"$$deleted":true,"_id":"alert_dismissal_mpy6qo10_m0gvba"}
+{"_id":"alert_dismissal_mpy6qo15_21tah4","alertKey":"LOW_STOCK:products_mpy6qo13_ge3lyx","type":"LOW_STOCK","sourceId":"products_mpy6qo13_ge3lyx","title":"Low Stock Test","dismissedAt":"2026-06-03T14:52:20.393Z","createdAt":"2026-06-03T14:52:20.393Z","updatedAt":"2026-06-03T14:52:20.393Z"}
+{"_id":"alert_dismissal_mpy6qo10_m0gvba","alertKey":"SYSTEM:alerts_mpy6qo0u_xdzmg6","type":"SYSTEM","title":"Test System Alert","dismissedAt":"2026-06-03T14:52:20.388Z","createdAt":"2026-06-03T14:52:20.388Z","updatedAt":"2026-06-03T14:52:20.388Z"}

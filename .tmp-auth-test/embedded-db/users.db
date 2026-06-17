@@ -1,0 +1,1 @@
+{"_id":"local-admin-user","email":"admin@pharmacy.local","passwordHash":"pharmacy-local-admin-v1:3e9148758536458abd2841a22f1662f07d6a5a410446cdc96a74c76bad85b478","name":"Pharmacy Admin","role":"SUPER_ADMIN","status":"ACTIVE","iat":0,"exp":4102444800,"updatedAt":"2026-05-25T05:56:26.877Z","createdAt":"2026-05-25T05:56:26.880Z"}
