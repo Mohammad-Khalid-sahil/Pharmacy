@@ -1,7 +1,28 @@
 # Node / Web
 node_modules/
+**/node_modules/
 dist/
 build/
+out/
+
+# Electron / Build outputs
+win-unpacked/
+release/
+releases/
+release-v*/
+release-final/
+release-production-*/
+installer-backups/
+.tmp-eb-*/
+.tmp-*/
+
+# Electron installers
+*.exe
+*.msi
+*.dmg
+*.app
+*.deb
+*.rpm
 
 # Logs
 *.log
@@ -13,10 +34,14 @@ yarn-error.log*
 .env
 .env.local
 .env.production
+.env.*
+!.env.example
 
 # Cache
 .cache/
 .parcel-cache/
+.vite/
+coverage/
 
 # IDE
 .idea/
@@ -25,3 +50,4 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
